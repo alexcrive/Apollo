@@ -1,0 +1,195 @@
+.fares {
+	padding-top: 37px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	@media (min-width: 768px) {
+		padding-top: 41px;
+		padding-bottom: 120px;
+	}
+	@media (min-width: 1200px) {
+		padding-top: 72px;
+		padding-bottom: 90px;
+	}
+}
+.fares-packages__head {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 38px;
+	text-align: center;
+	color: #333333;
+	letter-spacing: -0.3px;
+	margin-bottom: 17px;
+	@media (min-width: 768px) {
+		padding-left: 32px;
+    	padding-right: 33px;
+	}
+	@media (min-width: 1200px) {
+		font-size: 38px;
+		line-height: 26px;
+		margin-bottom: 30px;
+		padding-left: 97px;
+		padding-right: 68px;
+	}
+
+}
+
+.fares-packages__subhead {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: #777777;
+	margin-bottom: 40px;
+	letter-spacing: 0.2px;
+    @media (min-width: 768px) {
+		padding-left: 39px;
+    	padding-right: 45px;
+	}
+	@media (min-width: 1200px) {
+		padding-left: 65px;
+    	padding-right: 42px;
+		margin-bottom: 50px;
+	}
+}
+
+.fares__services {
+	text-align: center;
+	border-radius: 7px;
+	box-shadow: 0px 10px 40px 0px rgba(99, 117, 138, 0.5);  
+	padding-top: 35px;
+	padding-bottom: 57px;
+	margin-bottom: 55px;
+	&.first-space-left {
+		@media (min-width: 768px) {
+			margin-left: -15px;
+		}
+	}
+	&.last {
+		margin-bottom: 0;
+		@media (min-width: 768px) {
+			margin-right: -10px;
+		}
+	}
+	@media (min-width: 768px) {
+		margin-bottom: 0;
+	}
+	.fares__services__head {
+		font-size: 12px;
+		color: #242526;
+		letter-spacing: 0.8px;
+		text-transform: uppercase;
+		margin-bottom: 33px;
+	}
+
+	.fares__services__price {
+		font-size: 48px;
+		font-weight: bold;
+		line-height: 22px;
+		letter-spacing: 0;
+		margin-bottom: 22px;
+		span {
+			font-family: 'ALSRubl';
+		}
+	}
+	.fares__services__subhead {
+		font-size: 12px;
+		line-height: 30px;
+		color: #242526;
+		letter-spacing: 0.4px;
+		margin-bottom: 35px;
+	}
+	.fares__services__list {
+			font-size: 14px;
+			line-height: 20px;
+			margin-bottom: 55px;
+		ul {
+			color: #242526;
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			li {
+				list-style-position:inside;
+				margin: 0;
+				padding-left: 0;
+				padding: 0;
+				margin-bottom: 10px;
+				&:before {
+					content: "";
+					width: 12px;
+					height: 12px;
+					background-image: url(../img/navigation/ok-icon.png);
+					background-repeat: no-repeat;
+					background-position: left 3px;
+					display: inline-block;
+					margin-right: 10px;
+				}
+				
+			}
+		}
+
+	}
+	
+	.fares--button {
+		background-color: rgb(37, 37, 37);
+		box-shadow: 0px 8px 16px 0px rgba(171, 171, 171, 0.5);
+		font-size: 14px;
+		font-weight: bold;
+		letter-spacing: 1.2px;
+		color: #ffffff;
+		text-transform: uppercase;
+		text-decoration: none;
+		text-align: center;
+		line-height: 1;
+		padding-top: 14px;
+		padding-bottom: 12px;
+		padding-left: 42px;
+		padding-right: 42px;
+		-webkit-border-radius: 22px;
+		        border-radius: 22px;
+		margin-right: 70px;
+		margin-left: 70px;
+		cursor: pointer;
+		-webkit-transition: ease-in 0.2s;
+		   -moz-transition: ease-in 0.2s;
+		    -ms-transition: ease-in 0.2s;
+		     -o-transition: ease-in 0.2s;
+		        transition: ease-in 0.2s;
+		&:hover, &:active, &:focus {
+			background: #ffc80a;
+		}
+
+		@media (min-width: 768px) {
+			margin-right: 25px;
+			margin-left: 25px;
+		}
+		@media (min-width: 1200px) {
+			margin-right: 105px;
+			margin-left: 105px;
+		}
+	}
+
+	.button-try {
+		background-color: rgb(255, 200, 10);
+  		box-shadow: 0px 8px 16px 0px rgba(233, 222, 185, 0.5);
+		margin-right: 55px;
+		margin-left: 55px;
+		letter-spacing: 0.8px;
+		padding-top: 14px;
+		padding-bottom: 12px;
+		padding-left: 30px;
+		padding-right: 30px;
+		&:hover, &:active, &:focus {
+			background-color: rgb(37, 37, 37);
+		}
+		@media (min-width: 768px) {
+			margin-right: 20px;
+			margin-left: 20px;
+		}
+		@media (min-width: 1200px) {
+			margin-right: 90px;
+			margin-left: 88px;
+		}
+	}
+
+}

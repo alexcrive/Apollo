@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+	min-width: 320px;
+}
+
+html {
+	font-size: 10px;
+	line-height: 1.4;
+}
+
+body {
+	font-size: 1.6rem; /* 10px * 1.6 = 16px */
+	font-family: 'Noto Sans';
+}
+
+.block {
+	background: #539DBC;
+	padding: 20px;
+	color: #000;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.nav {
+	background: #38383a;
+	display: none;
+}
+.slider {
+	background: #2d558a;
+}
+.line {
+	border-top: 1px solid #eaeff5;
+}
+
+@media (min-width: 1200px) {
+	.nav-mobile {
+		display: none;
+	}
+	.nav {
+		display: block;
+	}
+}

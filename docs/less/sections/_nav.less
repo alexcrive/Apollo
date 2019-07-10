@@ -1,0 +1,110 @@
+.menu {
+	padding: 0;	
+	background: #35577d;
+	color: @white;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	display: block;
+  	box-shadow: 0px 5px 10px 0px rgba(42, 73, 109, 1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	
+	@media (min-width: 992px){
+		position: relative;
+		background: #38383a;
+		padding-top: 24px;
+		padding-bottom: 23px;
+	}
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+		@media (min-width: 992px){
+			padding-left: 15px;
+			padding-right: 15px;
+			width: 970px;
+		}
+		@media (min-width: 1200px){
+			padding-left: 15px;
+			padding-right: 15px;
+			width: 1170px;
+		}
+	}
+	
+	ul {
+		margin: 0;
+		padding: 0;
+	  	list-style-type: none;
+	  	background: #35577d;
+	  	display: none;
+	  	-webkit-justify-content: space-between;
+	  	        justify-content: space-between;
+	  	
+	  	@media (min-width: 992px){
+				display: flex;
+				background: #38383a;
+		}
+	  	li {
+	  		margin: 0;
+	  		list-style-type: none;
+	  		border-bottom: 1px solid #466a92 ;
+				@media (min-width: 992px){
+						border-bottom: 0px;
+				}
+			
+	  		a {
+	  			color: @white;
+	  			display: block;
+	  			padding-top: 23px;
+	  			padding-bottom: 23px;
+	  			padding-left: 15px;
+	  			padding-right: 15px;
+	  			text-decoration: none;
+	  			&:active, &:hover{
+	  				color: @menu_a_press;
+	  			}
+
+	  			@media (min-width: 992px){
+					display: inline;
+					padding-left: 0;
+	  				padding-right: 0;
+				}
+	  		}
+	  	}
+	}
+
+}
+.menu__button {
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	line-height: 1.5;
+	background-color: #38383a;
+	@media (min-width: 992px){
+		display: none;
+	}
+	
+	cursor: pointer;
+	position: relative;
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 24px;
+		right: 15px;
+		height: 25px;
+		width: 20px;
+		background: url(../img/navigation/menu-icon.png) no-repeat;
+	}
+}
+.menu__button--active {
+	background: #16385f;
+}
