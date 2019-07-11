@@ -1,8 +1,9 @@
 # Apollo Project
 ## one-page landing
 
-### include: 
-* HTML/CSS, 
+### tech include: 
+* HTML/CSS
+* mobile adaptive
 * Bootstrap 4
 * LESS
 * jquery
